@@ -1,0 +1,70 @@
+wandb_version: 1
+
+anchor_t:
+  value: 2
+anchors:
+  value: 3
+batch_size:
+  value: 32
+box:
+  value: 0.05486260861066136
+cls:
+  value: 0
+cls_pw:
+  value: 0
+copy_paste:
+  value: 0
+data:
+  value: /data/Arcade_dataset/arcade/arcade.yaml
+degrees:
+  value: 0
+device:
+  value: '1'
+epochs:
+  value: 200
+fl_gamma:
+  value: 1
+fliplr:
+  value: 0.5
+flipud:
+  value: 0
+hsv_h:
+  value: 0.004336347644320971
+hsv_s:
+  value: 0.7910119020282431
+hsv_v:
+  value: 0.8926097848278037
+iou_t:
+  value: 0.6485876646898884
+lr0:
+  value: 0.025532716442254102
+lrf:
+  value: 0.4540785479325573
+mixup:
+  value: 0.5
+momentum:
+  value: 0.8789380008856231
+mosaic:
+  value: 0.5
+obj:
+  value: 0.4357199247008253
+obj_pw:
+  value: 1.3962081968708409
+perspective:
+  value: 0
+project:
+  value: runs/train_small
+scale:
+  value: 0.05719878233566627
+shear:
+  value: 0
+translate:
+  value: 0.1
+warmup_bias_lr:
+  value: 0.1
+warmup_epochs:
+  value: 2
+warmup_momentum:
+  value: 0.8
+weight_decay:
+  value: 0.0009465265062451823
